@@ -1,0 +1,30 @@
+{
+  "name": "cli_hw_node_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "start:dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anurov-Prihodko/cli_hw_node_01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anurov-Prihodko/cli_hw_node_01/issues"
+  },
+  "homepage": "https://github.com/Anurov-Prihodko/cli_hw_node_01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "uuid": "^8.3.2"
+  }
+}
