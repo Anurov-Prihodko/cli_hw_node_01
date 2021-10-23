@@ -14,7 +14,9 @@ node app.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
 
 node app.js --action remove --id=3
 
-Ссылки на скрины:
+---
+
+**Ссылки на скрины:**
 
 [node app.js --action list](https://drive.google.com/file/d/1W2NXuumB5x1YE3PITzC3St9mh8cBWKc1/view?usp=sharing)
 
