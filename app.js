@@ -13,7 +13,6 @@ program.parse(process.argv)
 
 const argv = program.opts()
 
-// TODO: рефакторить
 const invokeAction = async ({ action, id, name, email, phone }) => {
   try {
     switch (action) {
@@ -22,6 +21,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
         if (!contacts) {
           return console.log(chalk.yellow('Contacts not found'))
         }
+        console.log(chalk.green('Here is your contacts'))
         console.table(contacts)
         break
 
