@@ -1,5 +1,4 @@
 const { Command } = require('commander')
-const chalk = require('chalk')
 const contactsOptions = require('./db')
 const program = new Command()
 program
@@ -37,10 +36,10 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
         break
 
       default:
-        console.log(chalk.yellow('Unknown action type!'))
+        console.warn('\x1b[33m Unknown action type!')
     }
   } catch (error) {
-    console.error(chalk.red(error.message))
+    console.error(`\x1b[31m ${error.message})`)
   }
 }
 
