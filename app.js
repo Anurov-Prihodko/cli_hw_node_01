@@ -1,6 +1,6 @@
 const { Command } = require('commander')
 const chalk = require('chalk')
-const contactsOptions = require('./db')
+const contactsOptions = require('./controllers')
 const program = new Command()
 program
   .option('-a, --action <type>', 'choose action')

@@ -5,7 +5,7 @@ const getContactById = async (contactId) => {
   if (!contacts) {
     return null
   }
-  const [contactById] = contacts.filter(
+  const contactById = contacts.find(
     (contact) => String(contact.id) === String(contactId)
   )
   if (!contactById) {
